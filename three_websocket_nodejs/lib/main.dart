@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'bloc/message_bloc.dart';
 import 'bloc/message_event.dart';
-import 'message_repository.dart';
-import 'MyHomePage.dart';
+import '../repository/message_repository.dart';
+import 'presentation/MyHomePage.dart';
 
 void main() {
   runApp(const MyApp());

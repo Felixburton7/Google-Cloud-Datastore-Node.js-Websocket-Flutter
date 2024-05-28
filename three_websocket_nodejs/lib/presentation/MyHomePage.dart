@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/message_bloc.dart';
-import '../bloc/message_event.dart';
-import '../bloc/message_state.dart';
-import 'message_model.dart';
+import '../../bloc/message_bloc.dart';
+import '../../bloc/message_event.dart';
+import '../../bloc/message_state.dart';
+import '../models/message_model.dart';
 
 class MyHomePage extends StatelessWidget {
   final TextEditingController _nameController = TextEditingController();
@@ -69,6 +69,7 @@ class MyHomePage extends StatelessWidget {
                 message: _messageController.text,
                 article: _articleController.text,
               );
+              //context(in terms of widget position), .read<MessageBloc>().add << this adds the message to the Event to the bloc 
               context.read<MessageBloc>().add(AddMessage(message));
             },
             child: Text('Add Message'),

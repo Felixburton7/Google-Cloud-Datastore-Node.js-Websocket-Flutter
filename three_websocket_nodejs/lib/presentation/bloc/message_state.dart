@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import '../message_model.dart';
+import '../models/message_model.dart';
 
 abstract class MessageState extends Equatable {
   @override

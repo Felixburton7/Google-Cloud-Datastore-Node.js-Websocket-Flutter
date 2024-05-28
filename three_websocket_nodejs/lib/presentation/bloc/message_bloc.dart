@@ -2,8 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'message_event.dart';
 import 'message_state.dart';
-import '../message_repository.dart';
-import '../message_model.dart';
+import '../repository/message_repository.dart';
+import '../models/message_model.dart';
 
 class MessageBloc extends Bloc<MessageEvent, MessageState> {
   final MessageRepository repository;

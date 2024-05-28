@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import '../bloc/message_bloc.dart';
-import '../message_model.dart';
+import '../models/message_model.dart';
 
 abstract class MessageEvent {}
 
