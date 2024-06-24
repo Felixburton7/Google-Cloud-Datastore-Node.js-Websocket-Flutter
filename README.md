@@ -2,11 +2,11 @@ Sure, here's a README file for the project:
 
 ---
 
-# Flutter Node.js Google Datastore Project
+# Flutter Node.js Google Cloud Datastore Project
 
 ## Overview
 
-This project integrates a Flutter application with a Node.js backend using Google Cloud Datastore for data storage and WebSockets for real-time communication. The Flutter app manages state using the BLoC (Business Logic Component) pattern, while the Node.js server handles data persistence and WebSocket connections.
+This project integrates a Flutter application with a Node.js backend using Google Cloud Datastore for data storage, set up in Google console and WebSockets for real-time communication. The Flutter app manages state using the BLoC (Business Logic Component) pattern, while the Node.js server handles data persistence and WebSocket connections.
 
 ## Features
 
